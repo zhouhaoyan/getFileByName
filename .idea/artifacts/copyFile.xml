@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="copyFile">
+    <output-path>$PROJECT_DIR$/out/artifacts/copyFile</output-path>
+    <root id="root">
+      <element id="directory" name="classes">
+        <element id="module-output" name="getFileByName" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/resources/app.properties" />
+      </element>
+    </root>
+  </artifact>
+</component>
